@@ -1,0 +1,7 @@
+colorMode(HSB);
+noFill();
+stroke(0,13,69);
+rect(20,20,300,300);
+
+stroke(0,88,56);
+line(20,175,200,175);
