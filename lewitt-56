@@ -1,0 +1,45 @@
+colorMode(HSB);
+stroke(20,0,56);
+line(0,175,350,175);
+line(175,0, 175,350);
+
+var a = 5;
+
+    
+while (a <350){
+line(a,0,a,350);
+var a = a+5;
+}
+
+var b = 5;
+
+while (b <= 175){
+line (175,b,350,b);
+  var b = b +5;
+}
+
+var c = 175;
+
+while (c<= 350){
+  line (0,c,350,c)
+  var c = c+5;
+}
+
+var a = 180;
+var b = 10;
+
+while (a<=510){
+line(5,a,b,175);
+
+var a = a+5;
+var b = b+10;
+}
+
+var a=180;
+var b=345;
+
+while (a<= 510){
+line(350,a,b,175);
+var a = a +5;
+var b = b -5;
+}
